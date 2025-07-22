@@ -1,5 +1,5 @@
 .tabs {
-  background-color: #1a1a1d;
+  background-color: white;
   padding: 16px 24px 0px 24px;
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
@@ -15,7 +15,7 @@
 .tab {
   font-size: 16px;
   font-weight: 500;
-  color: #a5a5a5;
+  color: #9c9c9c;
   cursor: pointer;
   padding: 8px 0;
   transition: color 0.2s ease;
@@ -23,18 +23,18 @@
 }
 
 .tab:hover {
-  color: #ffffff;
+  color: black;
 }
 
 .tab.active {
-  color: #ffffff;
+  color: black;
 }
 
 .indicator {
   position: absolute;
   bottom: 0;
   height: 3px;
-  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  background: linear-gradient(135deg, #264aec 0%, #1904dd 100%);
   border-radius: 2px;
   transform: translateX(0);
   width: 60px;
